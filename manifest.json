@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "DPK Extension",
+    "description": "Extensão para fazer o fix do Iframe",
+    "author": "ooiuri",
+    "browser_action": {
+   	 "default_title": "DPK Extension",
+   	 "default_icon": "logo.png"
+    },
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "permissions": [
+      "https://*/*",
+      "http://*/*",
+      "tabs"
+    ]
+  }
